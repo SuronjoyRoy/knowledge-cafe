@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "cover": "https://st2.depositphotos.com/4107269/7704/i/450/depositphotos_77040729-stock-photo-vacation-entertainment-concept.jpg",
+        "title": "The Great Adventure",
+        "author_img": "https://i.ibb.co/zn5V5C1/portrait-young-smiling-caucasian-man-260nw-1491969899.webp",
+        "author": "John Doe",
+        "posted_date": "2024-03-12",
+        "reading_time": 30,
+        "hashtags": [
+            "adventure",
+            "journey",
+            "exploration"
+        ]
+    },
+    {
+        "id": 2,
+        "cover": "https://i.ytimg.com/vi/SXbEN5lWRt8/maxresdefault.jpg",
+        "title": "Cooking Made Easy",
+        "author_img": "https://i.ibb.co/KxHc38L/successful-caucasian-young-man-student-260nw-2141124049.webp",
+        "author": "Jane Smith",
+        "posted_date": "2024-03-10",
+        "reading_time": 20,
+        "hashtags": [
+            "cooking",
+            "recipes",
+            "food"
+        ]
+    },
+    {
+        "id": 3,
+        "cover": "https://ventsmagazine.com/wp-content/uploads/2020/11/blog.jpg",
+        "title": "The Power of Mindfulness",
+        "author_img": "https://i.ibb.co/vZRmbGK/portrait-handsome-caucasian-man-formal-260nw-2142820441.webp",
+        "author": "Emily Johnson",
+        "posted_date": "2024-03-08",
+        "reading_time": 25,
+        "hashtags": [
+            "mindfulness",
+            "meditation",
+            "wellness"
+        ]
+    },
+    {
+        "id": 4,
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUs4F8-VIlv4kzCU18Dj-QwKKw9fAz_Bj5XTkDeUhOqhqJ6gqiHQ3k3f_XL_th-QGi2eo&usqp=CAU",
+        "title": "Programming Fundamentals",
+        "author_img": "https://i.ibb.co/5BYvj93/360-F-298288984-8i0-PB7s9a-WPzi1-Leu-NGGrnj-Xkm-XRpc-Zn.jpg",
+        "author": "Michael Brown",
+        "posted_date": "2024-03-05",
+        "reading_time": 40,
+        "hashtags": [
+            "programming",
+            "coding",
+            "computers"
+        ]
+    },
+    {
+        "id": 5,
+        "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQZ0GK5qr-_Zll3rj4K-T3JFa6PiI1biLj2v1iZjugNlPY_TmtvC752wUy27zsB6h9Xrc&usqp=CAU",
+        "title": "Art of Negotiation",
+        "author_img": "https://i.ibb.co/Bnw3Z42/jhank.png",
+        "author": "David Lee",
+        "posted_date": "2024-03-03",
+        "reading_time": 15,
+        "hashtags": [
+            "negotiation",
+            "communication",
+            "business"
+        ]
+    }
+]
