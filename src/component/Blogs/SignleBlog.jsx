@@ -1,7 +1,7 @@
 import { FaBookmark } from "react-icons/fa6";
 import PropTypes from 'prop-types';
 
-const SignleBlog = ({ blog, handleAddbookmarks }) => {
+const SignleBlog = ({ blog, handleAddbookmarks, hanldeReadingMarks }) => {
     const { id, cover, author, author_img, title, reading_time, posted_date, hashtags } = blog
     return (
         <div className="mb-20">
@@ -16,7 +16,7 @@ const SignleBlog = ({ blog, handleAddbookmarks }) => {
                         <p>{posted_date}</p>
                     </div>
                 </div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 mr-2">
                     <span>{reading_time} min read</span>
                     <button onClick={() => handleAddbookmarks(blog)}>
                         <FaBookmark />
@@ -24,11 +24,14 @@ const SignleBlog = ({ blog, handleAddbookmarks }) => {
                 </div>
             </div>
             <h2 className="text-3xl py-2 text-justify font-medium">{title}</h2>
-            <p className="text-justify py-2">
+            <p className="text-justify py-2 text-blue-700">
                 {
                     hashtags.map((has, idx) => <span key={idx}><a href="">#{has}</a></span>)
                 }
             </p>
+            <div className="text-left">
+                <button onClick={() => hanldeReadingMarks(reading_time, id)} className="text-blue-700 underline">Mark as Read</button>
+            </div>
         </div>
     );
 };

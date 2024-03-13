@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import SignleBlog from "./SignleBlog";
 
-const Blogs = ({ handleAddbookmarks }) => {
+const Blogs = ({ handleAddbookmarks, hanldeReadingMarks }) => {
     const [blogs, setBlogs] = useState([]);
 
     useEffect(() => {
@@ -14,7 +14,7 @@ const Blogs = ({ handleAddbookmarks }) => {
             <h2 className="font-bold text-4xl text-center py-8">Our Blogs</h2>
             <div className="">
                 {
-                    blogs.map(blog => <SignleBlog key={blog.id} blog={blog} handleAddbookmarks={handleAddbookmarks}></SignleBlog>)
+                    blogs.map(blog => <SignleBlog key={blog.id} blog={blog} handleAddbookmarks={handleAddbookmarks} hanldeReadingMarks={hanldeReadingMarks}></SignleBlog>)
                 }
             </div>
         </div>
